@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f8f6f0">
+    <meta name="description" content="Тетяна Якушенко — художниця з Херсона. Авторські картини, натхненні красою природи та митями життя.">
+    <title>Тетяна Якушенко — художниця з Херсона</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Тетяна Якушенко — на головну">
+        <span class="wordmark__monogram">ТЯ</span>
+        <span class="wordmark__name">Тетяна Якушенко<span>художниця · Херсон</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Відкрити меню">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Головна навігація">
+        <a href="#about">Про мене</a>
+        <a href="#gallery">Мої роботи</a>
+        <a href="#events">Події</a>
+        <a class="nav-cta" href="#contact">Знайомство <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="eyebrow__line"></span> Художниця з Херсона</p>
+          <h1>Світ,<br>побачений<br><em>серцем.</em></h1>
+          <p class="hero__intro">Малюю миті, які хочеться зберегти: красу природи, тепло зустрічей і тиху радість звичайного дня.</p>
+          <a class="text-link" href="#gallery">Зазирнути у мою галерею <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="hero__art">
+          <div class="hero__image-wrap">
+            <img src="img1/photo_2026-09-16_09-54-16.jpg" alt="Колекція яскравих авторських портретів">
+          </div>
+          <div class="hero__image-note"><span>01 / 18</span><span>Малюю те, що відчуваю</span></div>
+          <span class="hero__stamp" aria-hidden="true">створено<br>з любов’ю <span>✳</span></span>
+        </div>
+
+        <a class="hero__scroll" href="#about" aria-label="Прокрутити до розділу про художницю"><span></span> Гортайте далі</a>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="section-kicker"><span>01</span><span class="section-kicker__line"></span><span>Трохи про мене</span></div>
+        <div class="about__grid">
+          <div class="about__image">
+            <img src="img1/photo_2026-07-25_11-50-00.jpg" alt="Човен на синій воді, намальований Тетяною Якушенко">
+            <span class="image-caption">Кожна робота — це частинка мого світу</span>
+          </div>
+          <div class="about__copy">
+            <p class="eyebrow">Рада знайомству</p>
+            <h2>У кожного кольору<br>є <em>своя історія.</em></h2>
+            <p>Я — Тетяна Якушенко, художниця з Херсона. У живописі мене надихає те, що поруч: квіти, рідні краєвиди, сезонні барви й маленькі миті, з яких складається життя.</p>
+            <p>Люблю спостерігати, як на білому аркуші поступово народжується настрій. Ділюся цим відчуттям у своїх картинах і на творчих зустрічах.</p>
+            <a class="text-link" href="#events">Мистецтво об’єднує <span aria-hidden="true">↗</span></a>
+            <span class="about__signature">Тетяна</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="gallery">
+        <div class="section-kicker"><span>02</span><span class="section-kicker__line"></span><span>Вибране з майстерні</span></div>
+        <div class="gallery__heading">
+          <div>
+            <p class="eyebrow">Мої роботи</p>
+            <h2>Кольори, що<br><em>говорять.</em></h2>
+          </div>
+          <p class="gallery__intro">Квіти, натюрморти, улюблені персонажі та краєвиди — кожна картина має свій настрій.</p>
+        </div>
+
+        <div class="art-grid" id="art-grid">
+          <button class="art-card art-card--tall" type="button" data-full="img1/photo_2026-08-14_17-37-46.jpg" data-title="Літнє натхнення">
+            <span class="art-card__image"><img src="img1/photo_2026-08-14_17-37-46.jpg" alt="Рожеві квіти над літнім лугом" loading="lazy"></span>
+            <span class="art-card__meta"><span>Літнє натхнення</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--offset" type="button" data-full="img1/photo_2026-07-25_11-50-00.jpg" data-title="Морський пейзаж">
+            <span class="art-card__image"><img src="img1/photo_2026-07-25_11-50-00.jpg" alt="Човен на синій воді" loading="lazy"></span>
+            <span class="art-card__meta"><span>Морський пейзаж</span><span>↗</span></span>
+          </button>
+          <button class="art-card" type="button" data-full="img1/photo_2026-07-27_17-25-33.jpg" data-title="Смак літа">
+            <span class="art-card__image"><img src="img1/photo_2026-07-27_17-25-33.jpg" alt="Соковитий літній натюрморт із кавуном" loading="lazy"></span>
+            <span class="art-card__meta"><span>Смак літа</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--offset" type="button" data-full="img1/photo_2026-07-20_11-49-51.jpg" data-title="Квіти у вазі">
+            <span class="art-card__image"><img src="img1/photo_2026-07-20_11-49-51.jpg" alt="Букет червоних квітів у вазі" loading="lazy"></span>
+            <span class="art-card__meta"><span>Квіти у вазі</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--tall" type="button" data-full="img1/photo_2026-09-16_09-54-16.jpg" data-title="Пані з парасолькою">
+            <span class="art-card__image"><img src="img1/photo_2026-09-16_09-54-16.jpg" alt="Колекція яскравих портретів рудоволосих героїнь" loading="lazy"></span>
+            <span class="art-card__meta"><span>Пані з парасолькою</span><span>↗</span></span>
+          </button>
+          <button class="art-card" type="button" data-full="img1/photo_2026-08-10_11-53-30.jpg" data-title="Рибальський день">
+            <span class="art-card__image"><img src="img1/photo_2026-08-10_11-53-30.jpg" alt="Натюрморт із рибою та кошиком на березі" loading="lazy"></span>
+            <span class="art-card__meta"><span>Рибальський день</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--hidden" type="button" data-full="img1/photo_2026-10-15_19-49-48.jpg" data-title="На березі">
+            <span class="art-card__image"><img src="img1/photo_2026-10-15_19-49-48.jpg" alt="Човен біля дерев’яного причалу на березі" loading="lazy"></span>
+            <span class="art-card__meta"><span>На березі</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--hidden" type="button" data-full="img1/photo_2026-10-15_19-49-43.jpg" data-title="Пані з парасолькою">
+            <span class="art-card__image"><img src="img1/photo_2026-10-15_19-49-43.jpg" alt="Яскрава акварель із рудоволосою героїнею" loading="lazy"></span>
+            <span class="art-card__meta"><span>Пані з парасолькою</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--hidden art-card--tall" type="button" data-full="img1/photo_2026-10-07_20-38-02.jpg" data-title="Осіння прогулянка">
+            <span class="art-card__image"><img src="img1/photo_2026-10-07_20-38-02.jpg" alt="Осіння алея в золотистих тонах" loading="lazy"></span>
+            <span class="art-card__meta"><span>Осіння прогулянка</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--hidden" type="button" data-full="img1/photo_2026-10-07_17-50-37.jpg" data-title="Осінні героїні">
+            <span class="art-card__image"><img src="img1/photo_2026-10-07_17-50-37.jpg" alt="Колекція осінніх портретів із парасольками" loading="lazy"></span>
+            <span class="art-card__meta"><span>Осінні героїні</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--hidden" type="button" data-full="img1/photo_2026-10-05_15-01-29.jpg" data-title="Квітковий настрій">
+            <span class="art-card__image"><img src="img1/photo_2026-10-05_15-01-29.jpg" alt="Сонячний квітковий натюрморт" loading="lazy"></span>
+            <span class="art-card__meta"><span>Квітковий настрій</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--hidden" type="button" data-full="img1/photo_2026-09-19_12-06-43.jpg" data-title="Стиглі персики">
+            <span class="art-card__image"><img src="img1/photo_2026-09-19_12-06-43.jpg" alt="Стиглі персики та ягоди на тарелі" loading="lazy"></span>
+            <span class="art-card__meta"><span>Стиглі персики</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--hidden art-card--tall" type="button" data-full="img1/photo_2026-09-18_17-38-41.jpg" data-title="Чай із настроєм">
+            <span class="art-card__image"><img src="img1/photo_2026-09-18_17-38-41.jpg" alt="Затишний натюрморт із чайником та фруктами" loading="lazy"></span>
+            <span class="art-card__meta"><span>Чай із настроєм</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--hidden" type="button" data-full="img1/photo_2026-09-12_16-30-50.jpg" data-title="Осіння прогулянка">
+            <span class="art-card__image"><img src="img1/photo_2026-09-12_16-30-50.jpg" alt="Жінка гуляє поміж золотих осінніх дерев" loading="lazy"></span>
+            <span class="art-card__meta"><span>Осіння прогулянка</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--hidden" type="button" data-full="img1/photo_2026-08-17_16-18-15.jpg" data-title="Пелікани">
+            <span class="art-card__image"><img src="img1/photo_2026-08-17_16-18-15.jpg" alt="Пелікан над водою на світлій акварелі" loading="lazy"></span>
+            <span class="art-card__meta"><span>Пелікани</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--hidden" type="button" data-full="img1/photo_2026-08-17_16-17-58.jpg" data-title="Пташині історії">
+            <span class="art-card__image"><img src="img1/photo_2026-08-17_16-17-58.jpg" alt="Колекція барвистих малюнків пеліканів" loading="lazy"></span>
+            <span class="art-card__meta"><span>Пташині історії</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--hidden" type="button" data-full="img1/photo_2026-08-15_12-43-25.jpg" data-title="Ніжні мальви">
+            <span class="art-card__image"><img src="img1/photo_2026-08-15_12-43-25.jpg" alt="Рожеві мальви у квітучому саду" loading="lazy"></span>
+            <span class="art-card__meta"><span>Ніжні мальви</span><span>↗</span></span>
+          </button>
+          <button class="art-card art-card--hidden" type="button" data-full="img1/photo_2026-09-16_09-53-00.jpg" data-title="Місячний танок">
+            <span class="art-card__image"><img src="img1/photo_2026-09-16_09-53-00.jpg" alt="Казковий місячний пейзаж із танцівницями" loading="lazy"></span>
+            <span class="art-card__meta"><span>Місячний танок</span><span>↗</span></span>
+          </button>
+        </div>
+        <button class="gallery__more" id="gallery-more" type="button">Показати всі роботи <span aria-hidden="true">↓</span></button>
+      </section>
+
+      <section class="events section" id="events">
+        <div class="section-kicker"><span>03</span><span class="section-kicker__line"></span><span>Творчість поруч</span></div>
+        <div class="events__grid">
+          <div class="events__copy">
+            <p class="eyebrow">Зустрічі та натхнення</p>
+            <h2>Мистецтво,<br>яке <em>об’єднує.</em></h2>
+            <p>Творчість стає ще теплішою, коли нею ділишся. Зустрічі за малюванням, нові знайомства й роботи, створені разом, — особлива частина мого життя.</p>
+            <a class="text-link" href="#contact">Давайте знайомитися <span aria-hidden="true">↗</span></a>
+          </div>
+          <figure class="event-photo event-photo--large">
+            <img src="img2/photo_2026-08-14_17-37-40.jpg" alt="Учасниці творчої зустрічі показують свої картини" loading="lazy">
+            <figcaption>Натхнення народжується разом</figcaption>
+          </figure>
+          <figure class="event-photo event-photo--small">
+            <img src="img2/photo_2026-10-15_19-49-53.jpg" alt="Святкова зустріч художниць і їхні роботи" loading="lazy">
+            <figcaption>Теплі моменти творчої спільноти</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact__flower" aria-hidden="true">✳</div>
+        <p class="eyebrow">Замість прощання — до зустрічі</p>
+        <h2>Нехай у вашому дні<br>буде трохи <em>мистецтва.</em></h2>
+        <p>Перегляньте мої картини або завітайте на творчу зустріч — буду рада розділити з вами натхнення.</p>
+        <a class="contact__link" href="#gallery">Повернутися до галереї <span aria-hidden="true">↑</span></a>
+        <span class="contact__place">З теплом, Тетяна · Херсон</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark wordmark--footer" href="#home">
+        <span class="wordmark__monogram">ТЯ</span>
+        <span class="wordmark__name">Тетяна Якушенко<span>художниця · Херсон</span></span>
+      </a>
+      <span>© <span id="current-year">2026</span> Тетяна Якушенко. Створено з любов’ю до мистецтва.</span>
+      <a class="footer-top" href="#home">На початок ↑</a>
+    </footer>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Перегляд картини">
+      <button class="lightbox__close" type="button" aria-label="Закрити перегляд">×</button>
+      <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Попередня робота">←</button>
+      <figure class="lightbox__figure">
+        <img class="lightbox__image" src="" alt="">
+        <figcaption class="lightbox__caption"></figcaption>
+      </figure>
+      <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Наступна робота">→</button>
+    </dialog>
+  </body>
+</html>
